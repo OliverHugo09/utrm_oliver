@@ -19,5 +19,5 @@ from firstapp import views
 
 urlpatterns = [
     path('',views.home),
-    path('firstapp/',views.first_app),
+    path('createpassword/',views.create_password,name='password'),
 ]
